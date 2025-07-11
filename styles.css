@@ -1,0 +1,133 @@
+body {
+    margin: 0;
+}
+
+.header {
+    background-color: #1f2937;
+    font: 'Roboto';
+    display: flex;
+    flex: auto;
+    padding-bottom: 2%;
+    margin: 0;
+}
+
+.header-image {
+    display: flex;
+    flex: 0;
+    margin: 0;
+    padding-left: 10%;
+    height: 100px;
+    width: 100px;
+}
+
+ul {
+    font-size: 18px;
+    display: flex;
+    flex: auto;
+    gap: 24px;
+    justify-content: flex-end;
+    flex-direction: row;
+    list-style-type: none;
+    padding-right: 10%;
+}
+
+a {
+    text-decoration: none;
+    color: #F9FAF8;
+}
+
+h1 {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+
+.box-welcome {
+    background-color: #1f2937;
+    font: 'Roboto';
+    display: flex;
+    flex: auto;
+    padding-bottom: 150px;
+    margin: 0;
+}
+
+.box-welcome-image {
+    display: flex;
+    flex: auto;
+    margin: 0;
+    padding-right: 10%;
+    width: 500px;
+    height: 250px;
+}
+
+.box-welcome-section {
+    display: flex;
+    flex: auto;
+    flex-direction: column;
+    padding-left: 10%;
+}
+
+button {
+    background-color: #3882F6; 
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    font-size: 12px;
+    font-family: sans-serif;
+    cursor: pointer;
+    width: 100px;
+}
+
+.welcome {
+    font-size: 18px;
+    color:#E5E7EB;
+    max-width: 50%;
+}
+
+.box-summary {
+    padding-top: 5%;
+    background-color: #FFFFFF;
+    display: flex;
+    flex: auto;
+    padding-bottom: 5%;
+    margin: 0;
+    justify-content: space-evenly;
+    gap: 48px;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+h2 {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+}
+
+.summary-story {
+    display: flex;
+    flex: auto;
+    justify-self: center;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.image-set {
+    display: flex;
+    flex: 1;
+    margin: 0;
+    flex-direction: column;
+}
+
+img {
+    height: 50%;
+    max-width: 100%;
+    object-fit: contain;
+}
+
+.summary {
+    font-size: 18px;
+    color:#7e7e7e;
+    text-align: center;
+}
+
