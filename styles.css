@@ -47,7 +47,7 @@ h1 {
     font: 'Roboto';
     display: flex;
     flex: auto;
-    padding-bottom: 150px;
+    padding-bottom: 1%;
     margin: 0;
 }
 
@@ -131,3 +131,113 @@ img {
     text-align: center;
 }
 
+.box-quote {
+    background-color: #E5E7EB;
+    padding: 5%;
+    display: flex;
+    flex: auto;
+    flex-direction: column;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.quote {
+    display: flex;
+    flex: auto;
+    padding: 0;
+    margin: 0;
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    color: #515456;
+}
+
+.quote-author {
+    display: flex;
+    flex: auto;
+    padding-top: 1%;
+    color: #1F2937;
+    font-size: 24px;
+    justify-content: right;
+    font-weight: 600;
+}
+
+.box-closing {
+    padding-top: 5%;
+    background-color: #FFFFFF;
+    display: flex;
+    flex: auto;
+    justify-content: center;
+    padding-bottom: 5%;
+    margin: 0;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.box-action {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 4%;
+    background-color: #4285f4;
+    color: white;
+    border-radius: 8px;
+    gap: 20px;
+    width: 100%;
+}
+
+.signup-action {
+    background-color: transparent;
+    color: white;
+    border: 2px solid white;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.signup-action:hover {
+    background-color: white;
+    color:#9ea498;
+}
+
+.action-text {
+    display: flex;
+    flex: auto;
+    flex-direction: column;
+    padding-left: 10%;
+}
+
+h3 {
+    margin: 0;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.action-p {
+    margin: 0px;
+    font-size: 14px;
+    padding-top: 0.5%;
+    color: rgb(184, 184, 184);
+}
+
+.footer {
+    background-color: #1f2937;
+    font: 'Roboto';
+    display: flex;
+    flex: auto;
+    padding-top: 1%;
+    padding-bottom: 2%;
+    margin: 0;
+}
+.footer-p {
+    display: flex;
+    flex: auto;
+    margin: 0;
+    padding: 0;
+    padding-top: 1%;
+    justify-content: center;
+    text-align: center;
+    color: #F9FAF8;
+}
